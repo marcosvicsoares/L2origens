@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>L2 Origens</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="shortcut icon" href="images/l2b.gif" />
+		<meta name="Description" content="" />
+		<meta name="Keywords" content="L2 Origens" />
+		<script src="js/jquery-3.2.1.min.js"></script>
+
+		<!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+
+		<!-- Estilos principais -->
+		<link rel="stylesheet" href="css/style.css?ver=0.0.1" />
+
+		<!-- Adaptação -->
+		<link href="css/adaptation.css?ver=0.0.1" rel="stylesheet" />
+	</head>
+	<body>
+		<!--[if lt IE 10]>
+			<p class="old_ie">
+				Seu navegador está muito desatualizado. Por favor,
+				<a href="https://www.mozilla.org/ru/firefox/new/"
+					>atualize seu navegador</a
+				>
+				para uma nova versão.
+			</p>
+		<![endif]-->
+		<div class="main">
+			<div class="main__wrapper">
+				<div class="animation_zone">
+					<div class="layer" data-depth-x="-0.05" data-depth-y="0">
+						<div class="pers_1"></div>
+					</div>
+					<div class="layer" data-depth-x="0.03" data-depth-y="0">
+						<div class="pers_2"></div>
+					</div>
+				</div>
+				<div class="work-area">
+					<div class="header">
+						<a href="/" class="logo"></a>
+						<a href="#" class="premiun-btn"></a>
+					</div>
+					<!-- Fim do cabeçalho -->
+					<div class="navigation">
+						<div class="menu-wrp">
+							<a href="/"><spab>Página Inicial</spab></a>
+							<a href="/?page=ranking"><spab>Ranking</spab></a>
+							<a href="/?page=loja"><spab>Loja</spab></a>
+							<a href="/?page=bosses"><spab>Boss</spab></a>
+							<a href="/?page=sieges"><spab>Sieges</spab></a>
+							<a href="/?page=heroes"><spab>Heróis</spab></a>
+							<a href="/?page=vote"><spab>Votar</spab></a>
+						</div>
+						<!-- Fim do menu-wrp -->
+						<div class="cp-wrp">
+							<a href="/?page=painel" class="cp__link">
+								<span>Painel<br />de Controle</span>
+							</a>
+						</div>
+						<!-- Fim do cp-wrp -->
+					</div>
+					<!-- Fim da navegação -->
+					<div class="mid">
+						<div class="content-container content__sroll">
+							<div class="news_wrp">
+								<h3 class="news__title">Alguma notícia!</h3>
+								<div class="ta_c">
+									<img src="images/img.jpg" alt="" width="570" height="250" />
+								</div>
+								<br />
+								<div class="news_txt">
+									Lorem
+								</div>
+							</div>
+							<!-- Fim do news_wrp -->
+
+							<div class="news_wrp">
+								<h3 class="news__title">Arquivos</h3>
+								<br />
+								<div class="news_txt">
+									<div class="files-wrp">
+										<a href="#" class="btn">Baixar patch</a>
+										<a href="#" class="btn">Baixar cliente</a>
+										<a href="#" class="btn">Baixar algo</a>
+										<a href="#" class="btn">Baixar algo mais</a>
+									</div>
+								</div>
+							</div>
+							<!-- Fim do news_wrp -->
+
+							<div class="news_wrp">
+								<h3 class="news__title">Alguma notícia!</h3>
+								<div class="ta_c">
+									<img src="images/img.jpg" alt="" width="570" height="250" />
+								</div>
+								<br />
+								<div class="news_txt">
+									Lorem
+								</div>
+							</div>
+							<!-- Fim do news_wrp -->
+						</div>
+						<!-- Fim do content-container -->
+						<div class="sidebar">
+							<div class="status" id="l2b_servers_container">
+								<div class="stitle"></div>
+								<div class="server_container">
+									<div class="server__name">
+										<img src="images/starrow.png" alt="" class="starrow" />
+										Interlude x100000
+									</div>
+									<div class="server_bg">
+										<div
+											class="server_load"
+											data-server-online="360"
+											data-server-online-max="1000"
+										></div>
+									</div>
+									<div class="server__status-info">
+										Carga do servidor:
+										<span class="l2b_server_percent"></span>%
+									</div>
+									<div class="server__status status_on"></div>
+								</div>
+								<!-- Fim server_container -->
+
+								<div class="server_container">
+									<div class="server__name">
+										<img src="images/starrow.png" alt="" class="starrow" />
+										Interlude x100000
+									</div>
+									<!-- Conteúdo do segundo server_container se houver -->
+								</div>
+							</div>
+							<!-- Fim do status -->
+						</div>
+						<!-- Fim do sidebar -->
+					</div>
+					<!-- Fim do mid -->
+				</div>
+				<!-- Fim do work-area -->
+			</div>
+			<!-- Fim do main__wrapper -->
+		</div>
+		<!-- Fim do main -->
+
+		<video id="videoBG" no-controls autoplay loop playsinline muted>
+			<source src="images/video_bg.webm" type="video/webm" />
+		</video>
+
+		<!-- <link rel="stylesheet" href="css/font-awesome.min.css" > -->
+
+		<!-- Rolagem -->
+		<link href="css/jquery.jscrollpane.css" rel="stylesheet" />
+		<script src="js/jquery.jscrollpane.min.js"></script>
+		<script src="js/jquery.mousewheel.js"></script>
+		<script src="js/mwheelIntent.js"></script>
+
+		<script>
+			if (screen.width > 1000) {
+				document.write(
+					'<script src="js/jquery.parallax.min.js" ></sc' + "ript>"
+				);
+			}
+		</script>
+
+		<!-- Scripts após o DOM -->
+		<script src="js/js_onload.js?ver=0.0.1"></script>
+	</body>
+</html>

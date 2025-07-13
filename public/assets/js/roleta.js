@@ -1,0 +1,1 @@
+document.getElementById('spinBtn').onclick = () => { alert('Girando!'); };

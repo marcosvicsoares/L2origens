@@ -1,0 +1,1 @@
+Importe os arquivos SQL como roleta.sql, battlepass.sql, votes.sql etc.

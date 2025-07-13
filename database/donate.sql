@@ -1,0 +1,6 @@
+CREATE TABLE donate_logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(100),
+    amount DECIMAL(10,2),
+    received_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

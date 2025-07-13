@@ -1,0 +1,21 @@
+@media (min-width: 1000px){
+
+}
+
+
+@media (max-width: 1000px){
+    body {
+          background-position: -460px top;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) AND (max-height: 400px){
+
+}

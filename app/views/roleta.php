@@ -1,0 +1,1 @@
+<h2>Roleta</h2><button id='spinBtn'>Girar</button>
