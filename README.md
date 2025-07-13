@@ -34,4 +34,3 @@ Este é um projeto completo de site para servidor L2J Interlude baseado no servi
 ├── vendor/ # Autoload Composer
 ├── index.php # Roteador principal
 ├── .env # Configurações de conexão
-New
